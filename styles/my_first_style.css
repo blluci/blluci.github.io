@@ -4,15 +4,15 @@ body {
       color: #000;
       background-color: #fff;
 	  display:grid; 
-	  grid-template-columns:1fr 3fr; 
-	  grid-template-areas:"header header" "aside content" "footer footer"; 
+	  grid-template-columns:1fr 2fr; 
+	  grid-template-areas:"header header" "aside main" "footer footer"; 
 	  grid-row-gap:20px;
 	  grid-column-gap:20px;
 }
 header{grid-area:header;}
 aside{grid-area:aside;}
 footer{grid-area:footer;}
-main{grid-area:content;}
+main{grid-area:main;}
 h1 {
 	  
 	  background-color:#008080; 
@@ -21,22 +21,18 @@ h1 {
 	  padding: 100px 25px;
 	  text-align: center;
 	  font-family: Arial,sans-serif;
-	  font-size:2em;
+	  font-size: 300%;
 	  letter-spacing: 4em;
 	  border-radius: 40px;
 }
-h2	{font-size:1.5em;}
-h3	{font-size:1.2em;}
-h4	{font-size:1em;}
-h5	{font-size:0.8em;}
-h6	{font-size:0.6em;}
 h1, h2, h3, h4, h5, h6 {
 		font-weight: bold;	
 		text-transform:uppercase;
+		font-size: medium;
 	}
 h1, h3, h5 {font-stretch: expanded;}
 h2, h4, h6 {font-style: italic;}
-.adjust {font-size-adjust: 0.5;}
+
 p, ol, ul, td{
 		font-family:Didot,serif;
 		font-size:1em;
@@ -52,28 +48,20 @@ h5, h6 {
 }
 p {
 		color: #000;
+		text-align:justify;
+		font-size: medium;
 }
 h2, h3, h4, h5, h6 {
-		padding: 10px 80px;
 		margin:40px;
 		text-align: center;
 	}
-aside{border-color: #008080;
+aside{
+	border-color: #008080;
     border-style: solid;
     border-width: thin;}
-main img{
-	display: block;
-	margin: 0 auto;
-   }
-video{
-    width:500px;
-    height:300px;
-	display: block;
-	margin: 0 auto;
-   }
+
 nav a { 
     text-align: center; 
-    padding: 10px;
     border-top: 1px solid rgba(255,255,255,0.3); 
     border-bottom: 1px solid rgba(0,0,0,0.1); 
   }
@@ -86,12 +74,8 @@ nav p {
 footer {
 	text-align: center;
 	background-color:#008080; 
-	  color: #000;
-	  text-transform: uppercase;
-}
-footer address p {
-	color: #fff;
-	text-align:center;
+	color: #000;
+	text-transform: uppercase;
 }
 a:link{
 	text-decoration: underline;
@@ -120,10 +104,7 @@ ul{
 	list-style-type: square;
 	font-style:italic;
 }
-body, html{ height:100%; width:100%;}
-address a {
-	color:fff;
-}
+
 
 
 
