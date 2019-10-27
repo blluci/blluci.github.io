@@ -51,7 +51,6 @@ h5, h6 {
 		color: #000;
 }
 p {
-		
 		color: #000;
 		text-align:justify;
 		text-justify:inter-word;
@@ -65,7 +64,7 @@ aside{border-color: #008080;
     border-style: solid;
     border-width: thin;}
 section img{
-    width:800px;
+    width:1em;
     height:500px;
 	display: block;
 	margin: 0 auto;
