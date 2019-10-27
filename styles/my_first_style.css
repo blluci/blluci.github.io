@@ -52,8 +52,6 @@ h5, h6 {
 }
 p {
 		color: #000;
-		text-align:justify;
-		text-justify:inter-word;
 }
 h2, h3, h4, h5, h6 {
 		padding: 10px 80px;
