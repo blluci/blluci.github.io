@@ -12,7 +12,7 @@ body {
 header{grid-area:header;}
 aside{grid-area:aside;}
 footer{grid-area:footer;}
-section{grid-area:content;}
+main{grid-area:content;}
 h1 {
 	  
 	  background-color:#008080; 
