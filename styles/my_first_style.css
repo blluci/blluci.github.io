@@ -63,7 +63,7 @@ h2, h3, h4, h5, h6 {
 aside{border-color: #008080;
     border-style: solid;
     border-width: thin;}
-section img{
+main img{
 	display: block;
 	margin: 0 auto;
    }
