@@ -64,8 +64,8 @@ aside{border-color: #008080;
     border-style: solid;
     border-width: thin;}
 section img{
-    width:10em;
-    height:500px;
+    width:500px;
+    height:300px;
 	display: block;
 	margin: 0 auto;
    }
