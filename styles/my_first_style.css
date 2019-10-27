@@ -59,7 +59,22 @@ aside{
 	border-color: #008080;
     border-style: solid;
     border-width: thin;}
-
+section img{
+    width:800px;
+    height:500px;
+	display: block;
+	margin: 0 auto;
+   }
+video{
+    width:500px;
+    height:300px;
+	display: block;
+	margin: 0 auto;
+   }
+footer address p {
+	color: #fff;
+	text-align:center;
+}
 nav a { 
     text-align: center; 
     border-top: 1px solid rgba(255,255,255,0.3); 
